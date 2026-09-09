@@ -24,3 +24,6 @@ jobs:
 
       - name: print runner operating system
         run: 'echo "Operating system: $RUNNER_OS"'
+
+      - name: intensionally fail
+        run: exit 1
