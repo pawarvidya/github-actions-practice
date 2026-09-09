@@ -1,3 +1,4 @@
+name: hello github actions
 on:
   push:
 
